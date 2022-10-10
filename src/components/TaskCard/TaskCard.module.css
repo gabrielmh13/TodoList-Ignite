@@ -1,0 +1,65 @@
+.taskCard {
+    width: 100%;
+    height: auto;
+    min-height: 2.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--gray-500);
+    padding: 1.2rem 1.2rem;
+
+    border-radius: 0.5rem;
+}
+
+.finishButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1.5rem;
+    height: 1.5rem;
+
+    background: transparent;
+    border: 0.15rem solid var(--blue);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.finishButtonSelected {
+    width: 1.5rem;
+    height: 1.5rem;
+
+    background: var(--purple-dark);
+    border: 0.15rem solid var(--purple-dark);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.finishButtonSelected .mark {
+    display: inline-block;
+    transform: rotate(45deg);
+    height: 0.65rem;
+    width: 0.37rem;
+    border-bottom: 2px solid var(--gray-100);
+    border-right: 2px solid var(--gray-100);
+}
+
+.taskCard p {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 140%;
+    color: var(--gray-100);
+
+    inline-size: 80%;
+    overflow-wrap: break-word;
+}
+
+.removeButton {
+    align-self: flex-start;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.taskCard svg {
+    color: var(--gray-300);
+}

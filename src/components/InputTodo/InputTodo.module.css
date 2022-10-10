@@ -1,0 +1,47 @@
+.inputContainer {
+    display: flex;
+    gap: 0.5rem;
+
+    margin-top: -1.7rem
+}
+
+.input {
+    background: var(--gray-500);
+    width: 40rem;
+    height: 3.4rem;
+
+    border: none;
+    border-radius: 0.5rem;
+    overflow: hidden;
+
+    color: var(--gray-300);
+    text-indent: 1rem;
+
+    font-size: 1rem;
+}
+
+.button {
+    width: 5.6rem;
+    height: 3.12rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+
+    background: var(--blue-dark);
+
+    border: none;
+    border-radius: 0.5rem;
+
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: var(--gray-100);
+
+    cursor: pointer;
+
+}
+
+.button svg {
+    color: var(--gray-100);
+    font-size: 1.2rem;
+}
